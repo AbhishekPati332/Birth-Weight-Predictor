@@ -1,1 +1,1 @@
-web: gunicorn modelTraining:app
+web: gunicorn app:app
