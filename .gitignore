@@ -1,0 +1,5 @@
+#contains all the file name that i dont want to push in my github
+myvenv
+dataset
+model_training.ipynb
+

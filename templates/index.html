@@ -1,0 +1,26 @@
+<!--! this is the boilerplate -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+</head>
+<body>
+    {% if name == 'Abhishek' %}
+    {% for i in range(4) %}
+    <h1>{{i}} Hi {{name}} !</h1> <br>
+    <!--name is place holder , python variables-->
+    <h2>Welcome to the pw Skills Website!</h2>
+    <br>
+    <p>PW Skills' mission is to permeate through every student/professional's outlook towards jobs
+        and change their attitude and perspective from "How Can I Do It?" to "Of Course I Can Do It".</p>
+        {% endfor %}
+        {% else %}
+        <h1>Invalid User!</h1>
+
+
+        {% endif %}
+
+</body>
+</html>
